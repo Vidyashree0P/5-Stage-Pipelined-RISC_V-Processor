@@ -141,7 +141,7 @@ The instruction memory contains test instructions covering arithmetic, logical, 
 
 The testbench generates the clock, applies reset and runs the processor for multiple clock cycles.
 
-Waveform generation is configured using SHM commands for viewing signals in Cadence SimVision.
+Waveform generation is configured using shm commands for viewing signals in Cadence SimVision.
 
 ## Technologies Used
 
