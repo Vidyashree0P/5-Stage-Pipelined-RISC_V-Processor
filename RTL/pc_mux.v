@@ -21,3 +21,13 @@ module pc_mux (
     end
 
 endmodule
+
+//PC+4
+module pc_plus4 (
+    input  wire [31:0] pc_current,
+    output wire [31:0] pc4
+);
+    assign pc4 = pc_current + 32'd4;
+endmodule
+
+
